@@ -38,7 +38,7 @@ const Home = () => {
                     >
                         <h2 className="text-primary uppercase tracking-widest text-sm font-bold mb-4">About Halo</h2>
                         <h3 className="text-4xl md:text-5xl font-serif text-white mb-8 leading-tight">
-                            Driving Excellence Since 2010
+                            Learn How to Drive Safely and Confidently.
                         </h3>
                         <p className="text-gray-400 text-lg leading-relaxed mb-8">
                             At Halo School of Motoring, we believe that learning to drive is more than just passing a test—it's a life skill.

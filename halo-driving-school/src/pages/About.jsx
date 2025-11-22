@@ -65,10 +65,10 @@ const About = () => {
                         <div className="flex flex-col md:flex-row gap-8 items-center">
                             <div className="w-32 h-32 rounded-full bg-gray-700 shrink-0 border-2 border-primary" />
                             <div>
-                                <h3 className="text-xl text-white font-serif mb-2">John Doe</h3>
-                                <p className="text-primary text-sm uppercase tracking-wider mb-4">Senior Instructor & Founder</p>
+                                <h3 className="text-xl text-white font-serif mb-2">Hayley Kennedy</h3>
+                                <p className="text-primary text-sm uppercase tracking-wider mb-4">Instructor & Founder</p>
                                 <p className="text-gray-400 text-sm leading-relaxed">
-                                    With over 15 years of experience and thousands of successful passes, John brings a wealth of knowledge and a calm, reassuring presence to every lesson. He specializes in helping nervous drivers build confidence.
+                                    Hayley brings a wealth of knowledge and a calm, reassuring presence to every lesson. She specializes in helping nervous drivers build confidence.
                                 </p>
                             </div>
                         </div>
