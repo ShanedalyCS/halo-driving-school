@@ -43,7 +43,7 @@ const Contact = () => {
                                     <MapPin className="w-6 h-6 text-primary shrink-0" />
                                     <div>
                                         <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Location</p>
-                                        <p>123 Driving Lane, Dublin, Ireland</p>
+                                        <p>Co.Kildare</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4 text-gray-300">

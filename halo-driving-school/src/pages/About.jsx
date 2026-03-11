@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 
 const About = () => {
+    const hayleyPortrait = "/images/hayley-kennedy.jpeg";
     const features = [
         "RSA Approved Instructors",
         "Dual Controlled Vehicles",
@@ -37,10 +38,10 @@ const About = () => {
                     >
                         <h2 className="text-2xl font-serif text-white mb-6">Our Philosophy</h2>
                         <p className="text-gray-400 leading-relaxed mb-6">
-                            At Halo School of Motoring, we understand that learning to drive can be a daunting experience. That's why we've developed a unique teaching methodology that prioritizes your comfort and confidence.
+                            Learning to drive can be daunting, but it does not have to be. At Halo School of Motoring, the focus is on a relaxed, easy-going approach that still delivers the right amount of instruction.
                         </p>
                         <p className="text-gray-400 leading-relaxed mb-8">
-                            Our instructors are hand-picked not just for their driving skills, but for their ability to communicate effectively and patiently. We believe that a calm environment is the best classroom.
+                            Because everyone learns differently, each lesson is adapted to meet you where you are, so you understand and remember what you have learned.
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -53,8 +54,13 @@ const About = () => {
                         </div>
                     </motion.div>
 
-                    <div className="relative h-[400px] bg-secondary/30 rounded-sm border border-white/5 flex items-center justify-center">
-                        <span className="text-white/20 font-serif text-4xl">Instructor Image</span>
+                    <div className="relative h-[400px] bg-secondary/30 rounded-sm border border-white/5 overflow-hidden">
+                        <img
+                            src={hayleyPortrait}
+                            alt="Hayley Kennedy, driving instructor"
+                            className="w-full h-full object-cover"
+                            loading="lazy"
+                        />
                     </div>
                 </div>
 
@@ -63,13 +69,28 @@ const About = () => {
                     <h2 className="text-3xl font-serif text-white text-center mb-12">Meet Your Instructor</h2>
                     <div className="max-w-3xl mx-auto bg-secondary/50 p-8 border border-primary/20 rounded-sm">
                         <div className="flex flex-col md:flex-row gap-8 items-center">
-                            <div className="w-32 h-32 rounded-full bg-gray-700 shrink-0 border-2 border-primary" />
+                            <div className="w-32 h-32 rounded-full bg-gray-700 shrink-0 border-2 border-primary overflow-hidden">
+                                <img
+                                    src={hayleyPortrait}
+                                    alt="Hayley Kennedy"
+                                    className="w-full h-full object-cover"
+                                    loading="lazy"
+                                />
+                            </div>
                             <div>
                                 <h3 className="text-xl text-white font-serif mb-2">Hayley Kennedy</h3>
                                 <p className="text-primary text-sm uppercase tracking-wider mb-4">Instructor & Founder</p>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    Hayley brings a wealth of knowledge and a calm, reassuring presence to every lesson. She specializes in helping nervous drivers build confidence.
-                                </p>
+                                <div className="text-gray-400 text-sm leading-relaxed space-y-4">
+                                    <p>
+                                        My name is Hayley. I am from Kilcock. Born and reared, I never ventured too far, so you could say I am a bit of a home bird. I became a mammy at 22, and my daughter, now almost 10, has always been my biggest motivation to be the best I can be.
+                                    </p>
+                                    <p>
+                                        In addition to my driving instructor qualification, I hold a QQI Level 6 in Training, Delivery and Evaluation. This helps me adapt my teaching methods to meet each learner where they are, so lessons are clear, memorable, and suited to different learning styles.
+                                    </p>
+                                    <p>
+                                        The sense of fulfillment I receive from seeing someone go from "Hayley, I haven't got a clue" to "Oh my god Hayley, I passed my test" is priceless. Helping people and having a positive impact on their lives is my ultimate goal as a driving instructor.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
